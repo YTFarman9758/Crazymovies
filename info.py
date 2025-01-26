@@ -44,8 +44,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Crazy_Movies_search') #
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Nkdcrazy")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Nkdcrazy")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Nkdcrazy")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "fa7c2dac9ae7ab73dc76af55919bb4636fb8e067")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arolinks.com')
