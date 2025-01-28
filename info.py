@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "fa7c2dac9ae7ab73dc76af55919bb463
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'arolinks.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "fa7c2dac9ae7ab73dc76af55919bb4636fb8e067")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'arolinks.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "7200"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "150"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "150"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
