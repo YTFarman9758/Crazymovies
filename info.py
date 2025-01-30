@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '0d5a7f73ea37f1d11dd470cda9a1a75f')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8031980125:AAEZx8VkIECO-nt6tMqzbHqE8w9VKI5CE0Y')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6858251193').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6858251193 5528613826').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/YtJiomusic") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002332166273'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Crazy_Movies_search')
@@ -97,7 +97,7 @@ LINK_MODE = is_enabled('LINK_MODE', True)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
