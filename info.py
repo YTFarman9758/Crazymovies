@@ -13,9 +13,9 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20599570'))
-API_HASH = environ.get('API_HASH', '0d5a7f73ea37f1d11dd470cda9a1a75f')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8031980125:AAEZx8VkIECO-nt6tMqzbHqE8w9VKI5CE0Y')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6858251193 5528613826').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Crazy_Movies_se
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002255407902').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Crazy:Crazy1@crazy.wsc69.mongodb.net/?retryWrites=true&w=majority&appName=Crazy")
-DATABASE_NAME = environ.get('DATABASE_NAME', "crazy")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
