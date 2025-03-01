@@ -35,9 +35,9 @@ from plugins import web_server
 import pyrogram.utils
 import asyncio
 from pyrogram import idle
-from Jisshu.bot import JisshuBot
-from Jisshu.util.keepalive import ping_server
-from Jisshu.bot.clients import initialize_clients
+from AmRobotsTech.bot import AmRobotsTechBot
+from AmRobotsTech.util.keepalive import ping_server
+from AmRobotsTech.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
@@ -48,8 +48,8 @@ pyrogram.utils.MIN_CHANNEL_ID = -1002332166273
 
 async def Jisshu_start():
     print('\n')
-    print('Initalizing Jisshu Filter Bot')
-    bot_info = await JisshuBot.get_me()
+    print('Initalizing Your Bot')
+    bot_info = await AmRobotsTechBot.get_me()
     JisshuBot.username = bot_info.username
     await initialize_clients()
     for name in files:
